@@ -1,7 +1,74 @@
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  height: 100%;
+/*--------------------------------------Цвета----------------------------------------------------*/
+
+$bgColor: #1A1A1A;
+$textColor1: #fff;
+$textColor2: #000;
+$textColor3: #C0B977;
+
+/*--------------------------------------Шрифты----------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
+
+/*--------------------------------------Глобальные настройки----------------------------------------------------*/
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 90%;
 }
+
+
+.container {
+  background-color: $bgColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+  &__link {
+    text-decoration: none;
+    color: $textColor1;
+    margin-right: 15px;
+    text-transform: uppercase;
+  }
+  &__link_active {
+    color: $textColor3;
+  }
+}
+
+.btn {
+  color: $textColor1;
+  text-decoration: none;
+  padding: 10px 40px;
+  outline: none;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+
+
+/*--------------------------------------Миксины----------------------------------------------------*/
+/*--------------------------------------Медиа----------------------------------------------------*/
+/*--------------------------------------Хэдер----------------------------------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  font-size: 24px;
+  &__logo {
+    color: $textColor1;
+  }
+  &__menu {
+    display: flex;
+  }
+
+}
+
+/*--------------------------------------Контент----------------------------------------------------*/
+/*--------------------------------------Футер----------------------------------------------------*/
+
+
+
