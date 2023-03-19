@@ -22,6 +22,7 @@ $textColor3: #C0B977;
   background-color: $bgColor;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  color: $textColor1;
 }
 
 .menu {
@@ -68,6 +69,20 @@ $textColor3: #C0B977;
 }
 
 /*--------------------------------------Контент----------------------------------------------------*/
+
+.main {
+  .intro {
+    width: 500px;
+    &__name {
+      color: $textColor3;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 92px;
+      line-height: 100px;
+    }
+  }
+}
 /*--------------------------------------Футер----------------------------------------------------*/
 
 

@@ -13,6 +13,7 @@
   background-color: #1A1A1A;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  color: #fff;
 }
 
 .menu {
@@ -55,4 +56,16 @@
 }
 
 /*--------------------------------------Контент----------------------------------------------------*/
+.main .intro {
+  width: 500px;
+}
+.main .intro__name {
+  color: #C0B977;
+}
+.main .intro__title {
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 100px;
+}
+
 /*--------------------------------------Футер----------------------------------------------------*//*# sourceMappingURL=main.css.map */
